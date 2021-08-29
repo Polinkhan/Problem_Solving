@@ -16,7 +16,6 @@ public class Counting_Valleys {
             } else {
                 level--;
             }
-
             if (c == 'U' && level == 0) {
                 velly++;
             }
