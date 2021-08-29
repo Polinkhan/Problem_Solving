@@ -1,4 +1,4 @@
-package Hacker_Rank;
+package problem_solving;
 
 class SUb_Set_Genarate {
     static void set(String s,int index,String temp) {
