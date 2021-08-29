@@ -20,7 +20,6 @@ public class Migratory_Birds {
             if (arr[i] > max_value) {
                 max = i;
                 max_value = arr[i];
-
             }
         }
         System.out.println(max);
