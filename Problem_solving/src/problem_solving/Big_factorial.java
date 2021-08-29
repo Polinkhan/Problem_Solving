@@ -1,8 +1,8 @@
-package problem_solv;
+package problem_solving;
 
 import java.math.BigInteger;
 import java.util.Scanner;
-public class Problem_solv {
+public class Big_factorial {
 
     static BigInteger factorial(BigInteger n) {
         if (n.equals(BigInteger.ZERO)) {

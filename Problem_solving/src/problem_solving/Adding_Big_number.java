@@ -1,4 +1,4 @@
-package adding_big_number;
+package problem_solving;
 
 public class Adding_Big_number {
 

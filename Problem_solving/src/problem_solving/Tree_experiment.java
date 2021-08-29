@@ -1,4 +1,4 @@
-package javaapplication4;
+package problem_solving;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ class Node {
     }
 }
 
-public class Graph_experiment {
+public class Tree_experiment {
 
     static Scanner scan = new Scanner(System.in);
     static int total_node, temp, count = 0, max_lebel = 0, level = 0, i = 0;
