@@ -24,7 +24,15 @@ class Result {
 
         if (i < 3) {
             row[i] = getrow(arr[i]);
+            if(row[i]>15){
+                arr[i][0]-=(row[i]-15);
+                row[i] = getrow(arr[i]);
+            }
             col[i] = getcol(i);
+            if(col[i]>15){
+                arr[i][0]-=(col[i]-15);
+                col[i] = getcol(i);
+            }
             row_col_gen(i + 1);
         }
     }
